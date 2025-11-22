@@ -1,0 +1,47 @@
+# Number Guessing Game - Python
+
+A simple and beginner‑friendly Python project where the user tries to guess a randomly generated number.
+
+# Features
+
+ Random number generation
+Difficulty levels (Easy/Medium/Hard)
+Tracks number of attempts
+High score system (saved to a file)
+Input validation (prevents crashes)
+
+# How the Game Works
+
+1. Pick a difficulty level:
+
+   * Easy: 1–10 (6 attempts)
+   * Medium: 1–50 (8 attempts)
+   * Hard: 1–100 (10 attempts)
+
+2. The game generates a random number.
+
+3. You type guesses until you find the correct number or run out of attempts.
+
+4. If you guess correctly in fewer attempts than the saved high score, you set a **new high score**.
+
+# Project Structure
+
+number-guessing-game/
+│
+├── main.py                 # Main game logic
+├── highscore.txt           # Automatically generated
+├── README.md               # Project documentation
+└── .gitignore              # Ignore cache and highscore file
+
+
+# Future Improvements (Optional Ideas)
+
+* GUI version using Tkinter
+* Sound effects
+* Multiplayer mode
+* Timer challenge mode
+* Scoreboard system
+
+
+
+
